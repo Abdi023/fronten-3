@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    font-size: 1rem;
+}
+
+article{
+    width: 50vw;
+    border: 0.3125rem dotted blue;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    border: 0.3125rem dotted red;
+}
+
+p{
+    margin-bottom: 2.5rem;
+    border: 0.3125rem dotted green;
+
+}
+
+button{
+    outline:none;
+    border:none;
+    background: green;
+    color:white;
+    font-family: sans-serif;
+    padding: 0.625rem 1.25rem;
+    border-radius: 5px;
+    border: 0.3125rem dotted yellow;
+    width:100%;
+}
+
+.btn {
+    background: blue;
+}
+
+.btn.btn2 {
+    background: violet;
+}
+
+button {
+    background: black;
+}
+
+
+
+
+
+@media screen and (max-width: 62.5rem) {
+    body {
+        background: red;
+    }
+    article {
+        width: 90vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
